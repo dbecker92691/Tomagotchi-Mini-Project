@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+<body>
+    
+    <div class=start-game>
+        <button id='pickName'>Pick Name!</button>
+        <input type="text" placeholder="Name">
+    </div> 
+    
+
+        <div class='container'>
+           <div id='Tomagotchi'>
+               <img id='img' src="https://media.giphy.com/media/kMriPjm7A8mmQ/giphy.gif">
+               <h1 id='gameOver'></h1>
+           </div> 
+            <button class='gameButton' id='eat'>Eat</button>
+            <button class='gameButton' id='sleep'>Sleep</button>
+            <button class='gameButton' id='play'>Play</button>
+            <div class='scoringElements'>
+            <h2 id='levels1'></h2>
+            <h2 id='levels2'></h2>
+            <h2 id='levels3'></h2>
+           <div class='time'></div>
+           <div class='gameStats'>
+                <h2 id='levels4'></h2>
+                <h2 id='name'></h2>
+            </div>     
+                
+           </div>
+        </div>  
+
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.2/velocity.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.2/velocity.ui.js'></script>
+    <script src = "script/Tomagotchi.js"></script>
+</body>
+</html>
